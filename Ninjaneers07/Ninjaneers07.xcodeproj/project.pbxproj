@@ -16,6 +16,8 @@
 		76526A1A15E90AE4004086F3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76526A1815E90AE4004086F3 /* MainStoryboard_iPhone.storyboard */; };
 		76526A1D15E90AE4004086F3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76526A1B15E90AE4004086F3 /* MainStoryboard_iPad.storyboard */; };
 		76526A2015E90AE4004086F3 /* HackathonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76526A1F15E90AE4004086F3 /* HackathonViewController.m */; };
+		877F0D6F15E93CFB00EA18D9 /* ninjaneersSplash480.png in Resources */ = {isa = PBXBuildFile; fileRef = 877F0D6E15E93CFB00EA18D9 /* ninjaneersSplash480.png */; };
+		877F0D7015E93D0F00EA18D9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 76906D6515E9138A000B63EC /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,7 @@
 		76526A1E15E90AE4004086F3 /* HackathonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackathonViewController.h; sourceTree = "<group>"; };
 		76526A1F15E90AE4004086F3 /* HackathonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackathonViewController.m; sourceTree = "<group>"; };
 		76906D6515E9138A000B63EC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		877F0D6E15E93CFB00EA18D9 /* ninjaneersSplash480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninjaneersSplash480.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		76526A0C15E90AE4004086F3 /* Ninjaneers07 */ = {
 			isa = PBXGroup;
 			children = (
+				877F0D6D15E93C8B00EA18D9 /* resources */,
 				76526A1515E90AE4004086F3 /* HackathonAppDelegate.h */,
 				76526A1615E90AE4004086F3 /* HackathonAppDelegate.m */,
 				76526A1815E90AE4004086F3 /* MainStoryboard_iPhone.storyboard */,
@@ -101,6 +105,14 @@
 				76526A1415E90AE4004086F3 /* Ninjaneers07-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		877F0D6D15E93C8B00EA18D9 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				877F0D6E15E93CFB00EA18D9 /* ninjaneersSplash480.png */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +170,8 @@
 				76526A1115E90AE4004086F3 /* InfoPlist.strings in Resources */,
 				76526A1A15E90AE4004086F3 /* MainStoryboard_iPhone.storyboard in Resources */,
 				76526A1D15E90AE4004086F3 /* MainStoryboard_iPad.storyboard in Resources */,
+				877F0D6F15E93CFB00EA18D9 /* ninjaneersSplash480.png in Resources */,
+				877F0D7015E93D0F00EA18D9 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
