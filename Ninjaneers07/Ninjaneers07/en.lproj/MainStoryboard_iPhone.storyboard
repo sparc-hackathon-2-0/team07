@@ -5,6 +5,36 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
     </dependencies>
     <scenes>
+        <!--Table View Controller - Timeline-->
+        <scene sceneID="9nu-uD-5UL">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="32x-cl-EnJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="4zt-uz-Fgh" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Y6e-kg-r7o">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Ana-cW-I8f">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="4zt-uz-Fgh" id="aa2-TV-VUW"/>
+                            <outlet property="delegate" destination="4zt-uz-Fgh" id="x9s-3R-KkO"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Timeline" id="KnQ-uY-rob"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="-368" y="235"/>
+        </scene>
         <!--Hackathon View Controller - Event Capture-->
         <scene sceneID="5">
             <objects>
@@ -59,6 +89,7 @@
                                 </state>
                                 <connections>
                                     <action selector="VoiceAction:" destination="2" eventType="touchUpInside" id="94X-hI-RdI"/>
+                                    <segue destination="bqW-Bb-U32" kind="push" id="Ptk-Ju-wR8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2Tk-QV-3qG">
@@ -74,6 +105,7 @@
                                 </state>
                                 <connections>
                                     <action selector="TimelineAction:" destination="2" eventType="touchUpInside" id="pat-aL-aKg"/>
+                                    <segue destination="4zt-uz-Fgh" kind="push" id="eKJ-SO-efc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -117,7 +149,22 @@
                     <navigationItem key="navigationItem" title="Note" id="XhF-33-UUj"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="479" y="-57"/>
+            <point key="canvasLocation" x="505" y="-32"/>
+        </scene>
+        <!--View Controller - Voice-->
+        <scene sceneID="ThX-6k-aVD">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AwQ-Nb-Nk3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="bqW-Bb-U32" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eP3-Po-PSA">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Voice" id="t2b-KM-Pd0"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="76" y="334"/>
         </scene>
         <!--View Controller - Photo-->
         <scene sceneID="9I1-La-faN">
@@ -139,7 +186,7 @@
                     <navigationItem key="navigationItem" title="Photo" id="bOA-UB-Q7M"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1069" y="-276"/>
+            <point key="canvasLocation" x="868" y="-379"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gol-89-qoG">
