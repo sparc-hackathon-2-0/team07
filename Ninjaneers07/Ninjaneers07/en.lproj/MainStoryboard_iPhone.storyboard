@@ -42,6 +42,7 @@
                                 </state>
                                 <connections>
                                     <action selector="NoteAction:" destination="2" eventType="touchUpInside" id="xds-iV-b5W"/>
+                                    <segue destination="GNu-K8-i7v" kind="push" identifier="noteSegue" id="X2W-5s-taJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EaT-Sh-B4z">
@@ -80,7 +81,30 @@
                     <navigationItem key="navigationItem" title="Event Capture" id="MwW-JE-ajJ"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="615" y="161"/>
+            <point key="canvasLocation" x="-13" y="-267"/>
+        </scene>
+        <!--View Controller - Note-->
+        <scene sceneID="dot-fT-0eZ">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CF7-MO-wAr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="GNu-K8-i7v" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5w9-S8-Qfw">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="ZOD-ld-dZy">
+                                <rect key="frame" x="6" y="7" width="308" height="401"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Note" id="XhF-33-UUj"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="479" y="-57"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gol-89-qoG">
@@ -98,7 +122,7 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="45" y="161"/>
+            <point key="canvasLocation" x="-651" y="-357"/>
         </scene>
     </scenes>
     <classes>
