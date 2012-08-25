@@ -7,6 +7,7 @@
 //
 
 #import "NoteViewController.h"
+#import "NinjaData.h"
 
 @interface NoteViewController ()
 @end
