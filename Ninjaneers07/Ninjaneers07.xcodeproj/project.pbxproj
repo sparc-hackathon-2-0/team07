@@ -21,6 +21,7 @@
 		877F0D6F15E93CFB00EA18D9 /* ninjaneersSplash480.png in Resources */ = {isa = PBXBuildFile; fileRef = 877F0D6E15E93CFB00EA18D9 /* ninjaneersSplash480.png */; };
 		877F0D7015E93D0F00EA18D9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 76906D6515E9138A000B63EC /* Default.png */; };
 		9D790E4715E95C5F009AE3C8 /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D790E4615E95C5F009AE3C8 /* NoteViewController.m */; };
+		9D790E5215E98B47009AE3C8 /* NinjaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D790E5115E98B47009AE3C8 /* NinjaData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		877F0D6E15E93CFB00EA18D9 /* ninjaneersSplash480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninjaneersSplash480.png; sourceTree = "<group>"; };
 		9D790E4515E95C5F009AE3C8 /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
 		9D790E4615E95C5F009AE3C8 /* NoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+		9D790E5015E98B47009AE3C8 /* NinjaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinjaData.h; sourceTree = "<group>"; };
+		9D790E5115E98B47009AE3C8 /* NinjaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinjaData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,7 @@
 		76526A0C15E90AE4004086F3 /* Ninjaneers07 */ = {
 			isa = PBXGroup;
 			children = (
+				9D790E4F15E98ADF009AE3C8 /* Model */,
 				76B4732815E94DE900A5AF2D /* Photo */,
 				877F0D6D15E93C8B00EA18D9 /* resources */,
 				76526A1515E90AE4004086F3 /* HackathonAppDelegate.h */,
@@ -134,6 +138,15 @@
 				877F0D6E15E93CFB00EA18D9 /* ninjaneersSplash480.png */,
 			);
 			name = resources;
+			sourceTree = "<group>";
+		};
+		9D790E4F15E98ADF009AE3C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D790E5015E98B47009AE3C8 /* NinjaData.h */,
+				9D790E5115E98B47009AE3C8 /* NinjaData.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +222,7 @@
 				76526A2015E90AE4004086F3 /* HackathonViewController.m in Sources */,
 				76B4732615E94DBE00A5AF2D /* PhotoController.m in Sources */,
 				9D790E4715E95C5F009AE3C8 /* NoteViewController.m in Sources */,
+				9D790E5215E98B47009AE3C8 /* NinjaData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

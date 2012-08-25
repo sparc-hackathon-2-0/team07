@@ -7,6 +7,7 @@
 //
 
 #import "NoteViewController.h"
+#import "NinjaData.h"
 
 @interface NoteViewController ()
 @end
@@ -14,11 +15,16 @@
 @implementation NoteViewController
 
 @synthesize noteField = _noteField;
+@synthesize data = _data;
 
 - (IBAction)saveNoteAction {
-  NSLog(@"%@", self.noteField.text);
+  //NSLog(@"%@", self.noteField.text);
+  
   // TODO:
   // save the note somewhere
+  NSDate *today = [NSDate date];
+  NinjaData *data  = [[NinjaData alloc] initWithNote:self.noteField.text datecaptured:today];
+  self.data = data;
   
   [self.navigationController popViewControllerAnimated:YES];
 
