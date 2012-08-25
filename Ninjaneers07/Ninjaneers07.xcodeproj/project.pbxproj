@@ -16,6 +16,8 @@
 		76526A1A15E90AE4004086F3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76526A1815E90AE4004086F3 /* MainStoryboard_iPhone.storyboard */; };
 		76526A1D15E90AE4004086F3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76526A1B15E90AE4004086F3 /* MainStoryboard_iPad.storyboard */; };
 		76526A2015E90AE4004086F3 /* HackathonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76526A1F15E90AE4004086F3 /* HackathonViewController.m */; };
+		76B4732615E94DBE00A5AF2D /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B4732415E94DBE00A5AF2D /* PhotoController.m */; };
+		76B4732715E94DBE00A5AF2D /* PhotoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B4732515E94DBE00A5AF2D /* PhotoController.xib */; };
 		877F0D6F15E93CFB00EA18D9 /* ninjaneersSplash480.png in Resources */ = {isa = PBXBuildFile; fileRef = 877F0D6E15E93CFB00EA18D9 /* ninjaneersSplash480.png */; };
 		877F0D7015E93D0F00EA18D9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 76906D6515E9138A000B63EC /* Default.png */; };
 /* End PBXBuildFile section */
@@ -36,6 +38,9 @@
 		76526A1E15E90AE4004086F3 /* HackathonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackathonViewController.h; sourceTree = "<group>"; };
 		76526A1F15E90AE4004086F3 /* HackathonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackathonViewController.m; sourceTree = "<group>"; };
 		76906D6515E9138A000B63EC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		76B4732315E94DBE00A5AF2D /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoController.h; path = ../PhotoController.h; sourceTree = "<group>"; };
+		76B4732415E94DBE00A5AF2D /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoController.m; path = ../PhotoController.m; sourceTree = "<group>"; };
+		76B4732515E94DBE00A5AF2D /* PhotoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PhotoController.xib; path = ../PhotoController.xib; sourceTree = "<group>"; };
 		877F0D6E15E93CFB00EA18D9 /* ninjaneersSplash480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninjaneersSplash480.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +89,7 @@
 		76526A0C15E90AE4004086F3 /* Ninjaneers07 */ = {
 			isa = PBXGroup;
 			children = (
+				76B4732815E94DE900A5AF2D /* Photo */,
 				877F0D6D15E93C8B00EA18D9 /* resources */,
 				76526A1515E90AE4004086F3 /* HackathonAppDelegate.h */,
 				76526A1615E90AE4004086F3 /* HackathonAppDelegate.m */,
@@ -105,6 +111,16 @@
 				76526A1415E90AE4004086F3 /* Ninjaneers07-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76B4732815E94DE900A5AF2D /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				76B4732315E94DBE00A5AF2D /* PhotoController.h */,
+				76B4732415E94DBE00A5AF2D /* PhotoController.m */,
+				76B4732515E94DBE00A5AF2D /* PhotoController.xib */,
+			);
+			name = Photo;
 			sourceTree = "<group>";
 		};
 		877F0D6D15E93C8B00EA18D9 /* resources */ = {
@@ -172,6 +188,7 @@
 				76526A1D15E90AE4004086F3 /* MainStoryboard_iPad.storyboard in Resources */,
 				877F0D6F15E93CFB00EA18D9 /* ninjaneersSplash480.png in Resources */,
 				877F0D7015E93D0F00EA18D9 /* Default.png in Resources */,
+				76B4732715E94DBE00A5AF2D /* PhotoController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +202,7 @@
 				76526A1315E90AE4004086F3 /* main.m in Sources */,
 				76526A1715E90AE4004086F3 /* HackathonAppDelegate.m in Sources */,
 				76526A2015E90AE4004086F3 /* HackathonViewController.m in Sources */,
+				76B4732615E94DBE00A5AF2D /* PhotoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
