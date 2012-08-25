@@ -33,6 +33,7 @@
 		76526A1C15E90AE4004086F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		76526A1E15E90AE4004086F3 /* HackathonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackathonViewController.h; sourceTree = "<group>"; };
 		76526A1F15E90AE4004086F3 /* HackathonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackathonViewController.m; sourceTree = "<group>"; };
+		76906D6515E9138A000B63EC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		765269F715E90AE3004086F3 = {
 			isa = PBXGroup;
 			children = (
+				76906D6515E9138A000B63EC /* Default.png */,
 				76526A0C15E90AE4004086F3 /* Ninjaneers07 */,
 				76526A0515E90AE4004086F3 /* Frameworks */,
 				76526A0315E90AE4004086F3 /* Products */,
@@ -294,6 +296,7 @@
 				76526A2515E90AE4004086F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

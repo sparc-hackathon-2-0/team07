@@ -20,6 +20,16 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+//Button Actions
+- (IBAction)PhotoAction:(id)sender {
+}
+
+- (IBAction)NoteAction:(id)sender {
+}
+
+- (IBAction)VoiceAction:(id)sender {
+}
+
 - (void)viewDidUnload
 {
     [super viewDidUnload];
