@@ -37,4 +37,5 @@
   
   return [self initWithNote:note datecaptured:noteDate];
 }
+
 @end
