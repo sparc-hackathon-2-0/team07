@@ -97,7 +97,7 @@
                                 <rect key="frame" x="6" y="7" width="308" height="353"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Po4-Or-Kih">
                                 <rect key="frame" x="111" y="368" width="98" height="37"/>
@@ -160,6 +160,17 @@
             <point key="canvasLocation" x="-651" y="-357"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="HackathonViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HackathonViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="NoteAction:"/>
+                <relationship kind="action" name="PhotoAction:"/>
+                <relationship kind="action" name="TimelineAction:"/>
+                <relationship kind="action" name="VoiceAction:"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
