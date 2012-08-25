@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NoteViewController : UIViewController
+@interface NoteViewController : UIViewController {
+  UITextField *noteField;
+}
+
+@property (strong, nonatomic) IBOutlet UITextField *noteField;
+
+- (IBAction)noteFieldReturn:(id)sender;
 
 @end

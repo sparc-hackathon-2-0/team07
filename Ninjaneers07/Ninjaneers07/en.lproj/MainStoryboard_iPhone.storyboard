@@ -116,11 +116,11 @@
             </objects>
             <point key="canvasLocation" x="-13" y="-267"/>
         </scene>
-        <!--View Controller - Note-->
+        <!--Note View Controller - Note-->
         <scene sceneID="EQI-za-0WY">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wft-bD-NQW" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="Zml-iQ-Re5" sceneMemberID="viewController">
+                <viewController id="Zml-iQ-Re5" customClass="NoteViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NJ2-fq-Of1">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -133,7 +133,10 @@
                                         <rect key="frame" x="6" y="7" width="308" height="353"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                        <connections>
+                                            <action selector="noteFieldReturn:" destination="Zml-iQ-Re5" eventType="editingDidEndOnExit" id="dUz-ya-aR7"/>
+                                        </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Po4-Or-Kih">
                                         <rect key="frame" x="111" y="368" width="98" height="37"/>
@@ -146,6 +149,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="saveNoteAction" destination="Zml-iQ-Re5" eventType="touchUpInside" id="fMf-hx-gad"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -155,11 +161,12 @@
                     </view>
                     <navigationItem key="navigationItem" title="Note" id="PaQ-pj-hPx"/>
                     <connections>
+                        <outlet property="noteField" destination="ZOD-ld-dZy" id="wC7-TH-hLB"/>
                         <outlet property="view" destination="zC9-Hz-ibI" id="cpG-Bo-bwH"/>
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="498" y="-778"/>
+            <point key="canvasLocation" x="498" y="-797"/>
         </scene>
         <!--View Controller - Voice-->
         <scene sceneID="ThX-6k-aVD">
@@ -225,6 +232,14 @@
                 <relationship kind="action" name="PhotoAction:"/>
                 <relationship kind="action" name="TimelineAction:"/>
                 <relationship kind="action" name="VoiceAction:"/>
+            </relationships>
+        </class>
+        <class className="NoteViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NoteViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="endEditing:"/>
+                <relationship kind="action" name="noteFieldReturn:"/>
+                <relationship kind="outlet" name="noteField" candidateClass="UITextField"/>
             </relationships>
         </class>
     </classes>

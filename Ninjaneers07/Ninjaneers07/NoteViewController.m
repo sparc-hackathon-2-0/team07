@@ -9,12 +9,20 @@
 #import "NoteViewController.h"
 
 @interface NoteViewController ()
-@property (nonatomic, weak) NSString *noteString;
 @end
 
 @implementation NoteViewController
 
-@synthesize noteString = _noteString;
+@synthesize noteField = _noteField;
+
+- (IBAction)saveNoteAction {
+  NSLog(@"%@", self.noteField.text);
+}
+
+- (IBAction)noteFieldReturn:(id)sender
+{
+  [sender resignFirstResponder];
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,11 +36,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
 }
 
 - (void)viewDidUnload
 {
+  [self setNoteField:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
