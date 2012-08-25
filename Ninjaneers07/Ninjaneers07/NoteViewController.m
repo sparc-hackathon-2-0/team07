@@ -17,6 +17,11 @@
 
 - (IBAction)saveNoteAction {
   NSLog(@"%@", self.noteField.text);
+  // TODO:
+  // save the note somewhere
+  
+  [self.navigationController popViewControllerAnimated:YES];
+
 }
 
 - (IBAction)noteFieldReturn:(id)sender
