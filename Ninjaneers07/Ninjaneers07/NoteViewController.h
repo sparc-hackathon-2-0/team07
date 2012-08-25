@@ -7,12 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NinjaData.h"
 
 @interface NoteViewController : UIViewController {
   UITextField *noteField;
 }
 
 @property (strong, nonatomic) IBOutlet UITextField *noteField;
+@property (strong) NinjaData *data;
 
 - (IBAction)noteFieldReturn:(id)sender;
 
