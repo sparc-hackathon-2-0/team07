@@ -20,6 +20,9 @@
 		76B4732715E94DBE00A5AF2D /* PhotoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B4732515E94DBE00A5AF2D /* PhotoController.xib */; };
 		877F0D6F15E93CFB00EA18D9 /* ninjaneersSplash480.png in Resources */ = {isa = PBXBuildFile; fileRef = 877F0D6E15E93CFB00EA18D9 /* ninjaneersSplash480.png */; };
 		877F0D7015E93D0F00EA18D9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 76906D6515E9138A000B63EC /* Default.png */; };
+		9D790E4715E95C5F009AE3C8 /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D790E4615E95C5F009AE3C8 /* NoteViewController.m */; };
+		9D790E4B15E97833009AE3C8 /* NotesModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D790E4915E97833009AE3C8 /* NotesModel.xcdatamodeld */; };
+		9D790E4E15E97913009AE3C8 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D790E4D15E97913009AE3C8 /* Note.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,11 @@
 		76B4732415E94DBE00A5AF2D /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoController.m; path = ../PhotoController.m; sourceTree = "<group>"; };
 		76B4732515E94DBE00A5AF2D /* PhotoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PhotoController.xib; path = ../PhotoController.xib; sourceTree = "<group>"; };
 		877F0D6E15E93CFB00EA18D9 /* ninjaneersSplash480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninjaneersSplash480.png; sourceTree = "<group>"; };
+		9D790E4515E95C5F009AE3C8 /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		9D790E4615E95C5F009AE3C8 /* NoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+		9D790E4A15E97833009AE3C8 /* NotesModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotesModel.xcdatamodel; sourceTree = "<group>"; };
+		9D790E4C15E97913009AE3C8 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		9D790E4D15E97913009AE3C8 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,11 @@
 				76526A1515E90AE4004086F3 /* HackathonAppDelegate.h */,
 				76526A1615E90AE4004086F3 /* HackathonAppDelegate.m */,
 				76526A1815E90AE4004086F3 /* MainStoryboard_iPhone.storyboard */,
+				9D790E4915E97833009AE3C8 /* NotesModel.xcdatamodeld */,
+				9D790E4C15E97913009AE3C8 /* Note.h */,
+				9D790E4D15E97913009AE3C8 /* Note.m */,
+				9D790E4515E95C5F009AE3C8 /* NoteViewController.h */,
+				9D790E4615E95C5F009AE3C8 /* NoteViewController.m */,
 				76526A1B15E90AE4004086F3 /* MainStoryboard_iPad.storyboard */,
 				76526A1E15E90AE4004086F3 /* HackathonViewController.h */,
 				76526A1F15E90AE4004086F3 /* HackathonViewController.m */,
@@ -203,6 +216,9 @@
 				76526A1715E90AE4004086F3 /* HackathonAppDelegate.m in Sources */,
 				76526A2015E90AE4004086F3 /* HackathonViewController.m in Sources */,
 				76B4732615E94DBE00A5AF2D /* PhotoController.m in Sources */,
+				9D790E4715E95C5F009AE3C8 /* NoteViewController.m in Sources */,
+				9D790E4B15E97833009AE3C8 /* NotesModel.xcdatamodeld in Sources */,
+				9D790E4E15E97913009AE3C8 /* Note.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +347,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9D790E4915E97833009AE3C8 /* NotesModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9D790E4A15E97833009AE3C8 /* NotesModel.xcdatamodel */,
+			);
+			currentVersion = 9D790E4A15E97833009AE3C8 /* NotesModel.xcdatamodel */;
+			path = NotesModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 765269F915E90AE3004086F3 /* Project object */;
 }
