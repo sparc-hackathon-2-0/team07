@@ -30,6 +30,9 @@
 - (IBAction)VoiceAction:(id)sender {
 }
 
+- (IBAction)TimelineAction:(id)sender {
+}
+
 - (void)viewDidUnload
 {
     [super viewDidUnload];
