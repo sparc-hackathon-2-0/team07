@@ -14,7 +14,7 @@
 }
 
 @property (strong, nonatomic) IBOutlet UITextField *noteField;
-@property (strong) NinjaData *data;
+//@property (strong) NinjaData *data;
 
 - (IBAction)noteFieldReturn:(id)sender;
 
