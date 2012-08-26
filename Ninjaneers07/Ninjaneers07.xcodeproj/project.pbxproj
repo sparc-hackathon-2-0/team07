@@ -16,6 +16,7 @@
 		76526A1A15E90AE4004086F3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76526A1815E90AE4004086F3 /* MainStoryboard_iPhone.storyboard */; };
 		76526A1D15E90AE4004086F3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76526A1B15E90AE4004086F3 /* MainStoryboard_iPad.storyboard */; };
 		76526A2015E90AE4004086F3 /* HackathonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76526A1F15E90AE4004086F3 /* HackathonViewController.m */; };
+		76703FE315E9A54900B01ADA /* ninja.png in Resources */ = {isa = PBXBuildFile; fileRef = 76703FE215E9A54900B01ADA /* ninja.png */; };
 		76B4732615E94DBE00A5AF2D /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B4732415E94DBE00A5AF2D /* PhotoController.m */; };
 		76B4732715E94DBE00A5AF2D /* PhotoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B4732515E94DBE00A5AF2D /* PhotoController.xib */; };
 		87281AB115E99205007552F1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87281AAF15E99205007552F1 /* AVFoundation.framework */; };
@@ -24,7 +25,6 @@
 		877F0D6F15E93CFB00EA18D9 /* ninjaneersSplash480.png in Resources */ = {isa = PBXBuildFile; fileRef = 877F0D6E15E93CFB00EA18D9 /* ninjaneersSplash480.png */; };
 		877F0D7015E93D0F00EA18D9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 76906D6515E9138A000B63EC /* Default.png */; };
 		9D790E4715E95C5F009AE3C8 /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D790E4615E95C5F009AE3C8 /* NoteViewController.m */; };
-		9D790E5215E98B47009AE3C8 /* NinjaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D790E5115E98B47009AE3C8 /* NinjaData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +42,7 @@
 		76526A1C15E90AE4004086F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		76526A1E15E90AE4004086F3 /* HackathonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackathonViewController.h; sourceTree = "<group>"; };
 		76526A1F15E90AE4004086F3 /* HackathonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackathonViewController.m; sourceTree = "<group>"; };
+		76703FE215E9A54900B01ADA /* ninja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninja.png; sourceTree = "<group>"; };
 		76906D6515E9138A000B63EC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		76B4732315E94DBE00A5AF2D /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoController.h; path = ../PhotoController.h; sourceTree = "<group>"; };
 		76B4732415E94DBE00A5AF2D /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoController.m; path = ../PhotoController.m; sourceTree = "<group>"; };
@@ -115,6 +116,7 @@
 				87281AB715E9948D007552F1 /* Audio */,
 				9D790E4515E95C5F009AE3C8 /* NoteViewController.h */,
 				9D790E4615E95C5F009AE3C8 /* NoteViewController.m */,
+				76703FE215E9A54900B01ADA /* ninja.png */,
 				76526A1B15E90AE4004086F3 /* MainStoryboard_iPad.storyboard */,
 				76526A1E15E90AE4004086F3 /* HackathonViewController.h */,
 				76526A1F15E90AE4004086F3 /* HackathonViewController.m */,
@@ -228,6 +230,7 @@
 				877F0D6F15E93CFB00EA18D9 /* ninjaneersSplash480.png in Resources */,
 				877F0D7015E93D0F00EA18D9 /* Default.png in Resources */,
 				76B4732715E94DBE00A5AF2D /* PhotoController.xib in Resources */,
+				76703FE315E9A54900B01ADA /* ninja.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
